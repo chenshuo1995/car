@@ -1,0 +1,518 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	position: relative;
+}
+.music{
+	position: absolute;
+	width: 10%;
+	height: 10%;	
+	top: 52%;
+	right: 10%;
+	z-index: 10;
+	animation:dem 2s 0s linear infinite normal; 
+}
+.music img{
+	width: 100%;
+}
+.swiper-container{
+	width: 100%;
+	height: 100%;
+}
+/*one*/
+.one{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.one .outer{
+	width: 100%;
+	height: 100%;
+	background: url(../images/pic4.png);
+	background-size: 100% 100%;
+}
+.outer .sign{
+	overflow: hidden;
+}
+.outer .sign img{
+	width: 27%;
+	display: block;
+	margin: 8% 6%;
+}
+.outer .car{
+	position: absolute;
+	bottom: -4px;
+}
+.outer .car img{
+	width: 100%;
+}
+.outer h5,.two h5,.three h5,.four h5,.five h5,.six h5,.seven h5,.eight h5,.nine h5{
+	position: absolute;
+	bottom: 5%;
+	left: 46%;
+	animation: ar 2s linear infinite;
+	z-index: 100;	
+}
+.outer h5 img,.two h5 img,.three h5 img,.four h5 img,.five h5 img,.six h5 img,.seven h5 img,.eight h5 img,.nine h5 img{
+	width: 50%;
+}
+@-webkit-keyframes ar{
+	0%{bottom: 5%;}
+	20%{bottom: 6%;}
+	40%{bottom: 7%;}
+	60%{bottom: 8%;}
+	80%{bottom: 9%;}
+	100%{bottom: 10%;}
+}
+.outer .title{
+	position: absolute;
+	top: 5%;
+	width: 95%;
+	left: 6%;
+} 
+.title img{
+	width: 95%;
+}
+.outer .titles{
+	position: absolute;
+	top: 5%;
+	width: 95%;
+	left: 6%;
+}
+.titles img{
+	width: 95%;
+}
+.outer .demo{
+	position: absolute;
+	width: 55%;
+	height: 30.5%;
+	top: 17%;
+	left: 22%;
+	animation:dem 2s 0s linear infinite normal;
+}
+.demo img{
+	width: 100%;
+}
+@-webkit-keyframes dem{
+	0%{-webkit-transform:rotate(0deg);}
+	100%{-webkit-transform:rotate(360deg);}
+}
+.outer .bg-l{
+	position: absolute;
+	top: 6%;
+	left: 4%;
+	width: 100%;
+}
+.outer .bg-r{
+	position: absolute;
+	top: 4%;
+	right: -11%;
+	width: 100%;
+}
+.bg-l img,.bg-r img{
+	width: 85%;
+}
+/*two*/
+.two{
+	background: url(../images/twoback.png);
+	background-size: cover;
+	position: relative;
+}
+.two h2{
+	text-align: center;
+	margin-top: 30%;
+}
+.two h2 img{
+	width: 55%;
+}
+.two h3{
+	text-align: center;
+	position: absolute;
+	bottom: 15%;
+}
+.two h3 img{
+	width: 90%;
+}
+/*three*/
+.three{
+	background: url(../images/twopic2.png);
+	background-size:100% 100%;
+	position: relative;
+	font-size: 1.6rem;
+}
+.three .title{
+	position: absolute;
+	top: 5%;
+	width: 95%;
+	left: 6%;
+} 
+.three .title img{
+	width: 35%;
+}
+.three .titles{
+	position: absolute;
+	top: 5%;
+	width: 95%;
+	left: 6%;
+}
+.three .titles img{
+	width: 35%;
+}
+.three .demo{
+	position: absolute;
+	width: 30.3%;
+	height: 17%;
+	top: 6%;
+	left: 7.5%;
+	animation:dem 2s 0s linear infinite normal;
+}
+.demo img{
+	width: 100%;
+}
+.three .ql,.three .le,.three .sb{
+	width: 33%;
+	border-bottom: 1px solid #000;
+	height: 5%;
+	z-index: 2;
+}
+.three .ql{
+	position: absolute;
+	right: 27%;
+	top: 10%;
+}
+.three .le{
+	position: absolute;
+	right:36%;
+	top: 18%;
+	text-align: right;
+}
+.three .sb{
+	position: absolute;
+	left: 9%;
+	top: 25%;
+}
+.three .hand,.five .hand{
+	width: 20%;
+	position: absolute;
+	left: 60%;
+	top: 15%;
+	animation:han 2s 0s linear infinite normal; 
+	z-index: 50;
+
+}
+.three .hand img,.five .hand img,.seven .hands img{
+	width: 60%;
+}
+@-webkit-keyframes han{
+	0%{left: 60%;top: 15%;}
+	50%{left: 57%;top:14%;}
+	100%{left: 53%;top: 13%;}
+}
+.three .car{
+	background: url(../images/bigcar.png) no-repeat;
+	position: absolute;
+	background-size: 100% 100%;
+	width: 230%;
+	height: 80%;
+	bottom: -10%;
+	left: -30%;
+}
+.three .car .carlight{
+	background: url(../images/bigcarlight.png);
+	background-size: 100% 100%;
+	width: 30%;
+	height: 40%;
+	position: absolute;
+	left: 10%;
+	top: 45%;
+	display: none;
+}
+/*four*/
+.four{
+	width: 100%;
+	background: #000;
+	position: relative;
+}
+.four h2{
+	color: #fff;
+	text-align: center;
+	font-family: "微软雅黑";	
+}
+#box{
+	position: absolute;
+	left: 8%;
+	top: 10%;
+	width: 74%;
+	height: 40%;
+}
+#box img{
+	display: none;
+	position: absolute;
+	left: 7%;
+	top: 10%;
+	width: 100%;
+	height: 100%;
+}
+#box img:nth-child(1){
+	display: block;
+	width: 110%;
+}
+.sll{
+	position: absolute;
+	left: 16%;
+	top: 50%;
+}
+.sll img{
+	width: 60%;
+}
+.jia{
+	position: absolute;
+	left: 35%;
+	top: 50%;
+}
+.jia img,.jian img{
+	width: 60%;
+}
+.jian{
+	position: absolute;
+	left: 60%;
+	top: 50%;
+}
+.five{
+	background: url(../images/threepic1.png);
+	position: relative;
+	background-size: 100% 100%;
+	width: 100%;
+}
+.five .title{
+	margin-top: 20%;
+	margin-left: 6%;
+	z-index: 100;
+	width: 100%;
+	height: 10%;
+	display: block;
+}
+.five .title img{
+	width: 60%;
+	z-index: 100;
+}
+.five .titles{
+	margin-top: 5%;
+	margin-left: 6%;
+	z-index: 100;
+}
+.five .titles img{
+	width: 90%;
+}
+.carbox{
+	position: absolute;
+	bottom: -1%;
+}
+.carbox img{
+	width: 100%;
+}
+.five .bai{
+	position: absolute;
+	width: 100%;
+	top:-10%;
+	z-index: -100;
+}
+.five .q,.five .w{
+	width: 100%;
+}
+.five .q{
+	margin-top: 25%;
+	margin-left: 8%;
+	z-index: 100;
+}
+.five .w{
+	margin-top: 25%;
+	margin-left: 8%;
+	z-index: 100;
+}
+.five .q img,.five .w img{
+	height: 80%;
+	width: 85%;
+}
+.five .e{
+	position: absolute;
+	top: 0;
+	z-index: 100;
+}
+.five .r{
+	position: absolute;
+	bottom: 0;
+	left: 15%;
+	z-index: 100;
+}
+.five .e img{
+	width: 100%;
+}
+.five .r img{
+	width: 80%;
+}
+/*six*/
+.six{
+	background: url(../images/threepic1.png);
+	position: relative;
+	background-size: 100% 100%;
+	width: 100%;
+}
+.back{
+	background: #000;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	opacity: 0.6;
+}
+.six .demos{
+	position: absolute;
+	z-index: 2;
+	top: 20%;
+	left: 28%;
+	width: 44%;
+	height: 25%;
+	text-align: center;
+	overflow: hidden;
+	animation: dem 2s 0s linear infinite normal;
+}
+.demos img{
+	width: 100%;
+}
+.six .ck{
+	position: absolute;
+	top: 30%;
+	left: 28%;
+	width: 44%;
+	height: 8%;
+	z-index: 3;
+	text-align: center;
+	animation: scale 1s 0s linear infinite normal;
+	font-size: 1.5rem;
+}
+@-webkit-keyframes scale{
+	0%{transform: scale(1,1);}
+	100%{transform: scale(1.5,1.5);}
+}
+/*seven*/
+.seven{
+	background: #000;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.seven .st{
+	width: 100%;
+}
+.seven .st img{
+	width: 100%;
+}
+.con img{
+	width: 70%;
+}
+.seven .hands{
+	width: 20%;
+	position: absolute;
+	left: 44%;
+	bottom: 7%;
+	animation:hands 2s 0s linear infinite normal; 
+	z-index: 50;
+
+}
+@-webkit-keyframes hands{
+	0%{left: 44%;bottom: 7%;}
+	100%{left: 27%;bottom: 9%;}
+}
+/*eight*/
+.eight{
+	background:url(../images/sixpic1s.png);
+	background-size: 100% 100%; 
+	position: relative;
+}
+.eo img{
+	width: 95%;
+}
+.et{
+	position: absolute;
+	top: 0;
+}
+.ett{
+	position: absolute;
+	top: 38%;
+}
+.ett img{
+	width: 80%;
+}
+.ef{
+	position: absolute;
+	top: 60%;
+}
+.et img,.ef img{
+	width: 100%;
+}
+.nine{
+	background: #000;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.nine h2{
+	position: absolute;
+	top: 0;	
+}
+.nine h2 img,.nine h3 img,.nine h4 img{
+	width: 100%;
+}
+.nine h3{
+	position: absolute;
+	top: 33%;	
+}
+.nine h4{
+	position: absolute;
+	top: 71%;	
+}
+/*ten*/
+.ten{
+	background: url(../images/eightbc.png);
+	background-size: 100% 100%;
+	position: relative;
+}
+.ten h1{
+	text-align: center;
+	font-size:1.7rem;
+	color: #000;
+	margin-top: 30%;
+	font-family: "微软雅黑";
+	margin-bottom: 8%;
+}
+.ten div{
+	text-align: center;	
+	margin-bottom: 2%;
+}
+.ten div span{
+	margin-right: 4%;
+}
+.ten div input{
+	background-color: #c7ddef;
+	border: 1px solid #a5aeb7;
+    outline: none;
+    width: 54%;
+    height: 1.7rem;
+}
+.ten button{
+	display: block;
+    height: 2.2rem;
+    width: 11.44rem;
+    background-color: #ff6600;
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 0.36rem;
+    border: none;
+    outline: none;
+    border-radius: 0.80rem;
+    margin: 5% 31%;
+     
+}
